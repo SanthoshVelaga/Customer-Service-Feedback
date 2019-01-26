@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Restaurant Feedback</title>
+</head>
+<body>
+
+<h1>Customer Service Feedback</h1>
+
+<form>  
+
+<label for="email">Please enter a valid email address:</label>
+<input type="email" id="email"
+       pattern=".+.com" placeholder="YourName@gmail.com" size="20" required>  
+
+  <br></br>
+<label for="Ratings">How would you describe your experience today: </label>
+
+<select name="Ratings">
+  
+  <option value="The Best Ever">The Best Ever!</option>
+  <option value="Excellent">Excellent</option>
+  <option value="Good">Good</option>
+  <option value="Satisfactory">Satisfactory</option>
+  <option value="Poor">Poor</option>
+  <option value="Terrible">Terrible</option>
+   
+</select>
+  <br></br>
+   <div class="messageBox">
+     <label for="message">What adivce to you have for us to improve our service?</label><br></br>
+   <textarea id="message" cols="50" rows="7" required placeholder="Enter suggestion here por favor."></textarea>
+ </div>
+  
+<form>
+  <br>
+<input type="submit" value="Submit">
+</body>
+</html> 
